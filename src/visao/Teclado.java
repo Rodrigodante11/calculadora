@@ -29,9 +29,10 @@ public class Teclado extends JPanel implements ActionListener{
 		c.fill= GridBagConstraints.BOTH;
 		
 		//linha 1
-		c.gridwidth=3; // para ocupar 3 espaços de botoes
+		c.gridwidth=2; // para ocupar 3 espaços de botoes
 		adicionarBotao("AC",COR_CINZA_ESCURO,c ,0,0);
 		c.gridwidth=1;
+		adicionarBotao("+/-",COR_CINZA_ESCURO,c ,2,0);
 		adicionarBotao("/",COR_LARANJA,c ,3,0);
 		
 		//linha2
